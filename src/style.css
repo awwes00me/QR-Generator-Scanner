@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* серый фон */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: #fff; /* белый блок */
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column; /* сверху вниз */
+  align-items: center;    /* по центру горизонтально */
+}
+
+.container input {
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: #45a049;
+}
+
+.container svg { /* QR-код */
+  margin-bottom: 20px;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #222;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center; /* центрируем ссылки */
+  gap: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+  background-color: #4caf50;
+}
+
+body {
+  margin: 0;
+  padding-top: 60px;
+  font-family: Arial, sans-serif;
+}
+
+.generate-history p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: #f9f9f9;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 10px 0; /* добавляем вертикальный отступ между элементами */
+  word-break: break-word;
+}
+
+
+/* QR-коды остаются фиксированного размера и с рамкой */
+.generate-history svg {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
